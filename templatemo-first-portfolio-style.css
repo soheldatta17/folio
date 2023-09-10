@@ -130,6 +130,14 @@ a:hover {
   border-color: black;
 }
 
+/* :selection, ::before {
+  background: transparent;
+  color: #111;
+  font-size: 1.7rem;
+  border-width: 8px;
+} */
+
+
 ::-moz-selection {
   background: var(--secondary-color);
   color: var(--white-color);
@@ -252,7 +260,12 @@ strong {
   margin-right: 20px;
 }
 
-
+.navbar .custom-btn{
+  background: var(--white-color);
+  border-color: transparent;
+  color: blue;
+  font-style: italic;
+}
 .navbar .custom-btn:hover {
   background: var(--white-color);
   border-color: transparent;
@@ -308,9 +321,8 @@ strong {
   height: auto !important;
 }
 
-.is-sticky,
-.is-sticky .navbar .container {
-  background: antiquewhite;
+.navbar .container {
+  background: url('360_F_589814434_OAWQMHaDi4fMT9Ke2DySPuJ0ECUqWaVA.jpg');
   box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
 }
 
@@ -394,6 +406,7 @@ strong {
 
 .navbar-nav {
   background-color: white;
+   
 }
 
 .navbar-nav .nav-link.active::after,
@@ -522,6 +535,7 @@ strong {
 
   display: inline-block;
   padding: 8px 24px;
+  /* padding-top: 2rem; */
 }
 
 .hero-text {
@@ -540,14 +554,17 @@ strong {
   width: 300px;
   border-width: 10px;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(140, 232, 238);
   padding: 2px;
   border-radius: 40px;
   border-style: double;
+  /* padding-top: 10px; */
 }
 
 .hero-image:hover {
-  width: 350px;
+  /* width: 350px; */
+  /* border-color: rgb(140, 232, 238); */
+  border-color: black;
   
 }
 
@@ -624,7 +641,8 @@ strong {
 }
 
 .featured-text {
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
+  color: red;
 }
 
 .featured-border-bottom {
@@ -1043,6 +1061,10 @@ strong {
 }
 
 @media screen and (max-width: 991px) {
+h1,h2,h3,h4,h5,h6
+{
+  text-align: center;
+}
   h1 {
     font-size: 48px;
   }
@@ -1079,7 +1101,9 @@ strong {
   }
 
   .navbar .container {
-    background: var(--white-color);
+    /* background: var(--white-color); */
+    background: url('istockphoto-1155705366-612x612.jpg') repeat;
+    /* background-size: 30px; */
   }
 
   .navbar-brand,
@@ -1088,15 +1112,14 @@ strong {
   }
 
   .navbar {
-    background-color: white;
+    background: url('360_F_589814434_OAWQMHaDi4fMT9Ke2DySPuJ0ECUqWaVA.jpg');
   }
 
   
 
   .navbar .custom-btn {
     border-color: black;
-    color: red;
-    /* font-style: italic; */
+    color: black
   }
 
   .navbar-toggler .navbar-toggler-icon,
