@@ -255,7 +255,7 @@ strong {
 .navbar .custom-btn:hover {
   background: var(--white-color);
   border-color: transparent;
-  color: var(--secondary-color);
+  color: red;
 }
 
 .custom-btn {
