@@ -1096,7 +1096,7 @@ strong {
   .navbar .custom-btn {
     border-color: black;
     color: red;
-    font-style: italic;
+    /* font-style: italic; */
   }
 
   .navbar-toggler .navbar-toggler-icon,
