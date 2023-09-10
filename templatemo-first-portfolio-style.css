@@ -1112,7 +1112,8 @@ h1,h2,h3,h4,h5,h6
   }
 
   .navbar {
-    background-color: antiquewhite;
+    background: url('istockphoto-1414184261-612x612.jpg');
+    /* background-size: 130px; */
   }
 
   
