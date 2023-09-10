@@ -252,12 +252,7 @@ strong {
   margin-right: 20px;
 }
 
-.navbar .custom-btn{
-  background: var(--white-color);
-  border-color: transparent;
-  color: blue;
-  font-style: italic;
-}
+
 .navbar .custom-btn:hover {
   background: var(--white-color);
   border-color: transparent;
@@ -1099,8 +1094,9 @@ strong {
   
 
   .navbar .custom-btn {
-    border-color: var(--secondary-color);
-    color: var(--secondary-color);
+    border-color: black;
+    color: red;
+    font-style: italic;
   }
 
   .navbar-toggler .navbar-toggler-icon,
