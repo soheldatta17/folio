@@ -9,14 +9,10 @@ body
     font-family:'Times New Roman', Times, serif;
     font-weight: 900;
 }
-.mb-0
-{
-    color: white;
-}
 .mb-0:hover
 {
     background-color: white;
-    color: blue;
+    color: rgb(247, 54, 11);
 }
 .container p
 {
@@ -58,7 +54,7 @@ h2{
 }
 .mb-0
 {
-    color: black;
+    color: blue;
 }
 
 #social {
