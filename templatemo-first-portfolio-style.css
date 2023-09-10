@@ -120,9 +120,14 @@ a:hover {
   color: black;
 }
 
-::selection {
-  background: var(--secondary-color);
-  color: var(--white-color);
+::selection,::before {
+  /* background: var(--secondary-color);
+  color: var(--white-color); */
+  background: transparent;
+  color: #111;
+  font-size: 1.3rem;
+  /* border-radius: 10px; */
+  border-color: black;
 }
 
 ::-moz-selection {
