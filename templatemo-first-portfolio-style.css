@@ -262,7 +262,7 @@ strong {
 
 .navbar .custom-btn{
   background: var(--white-color);
-  border-color: transparent;
+  border-color: black;
   color: blue;
   font-style: italic;
 }
