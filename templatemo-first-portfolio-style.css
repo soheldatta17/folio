@@ -120,12 +120,21 @@ a:hover {
   color: black;
 }
 
-::selection,::before {
+#section_3,::selection{
   /* background: var(--secondary-color);
   color: var(--white-color); */
   background: transparent;
-  color: #111;
-  font-size: 1.3rem;
+  color: white;
+  font-size: 2.5rem;
+  /* border-radius: 10px; */
+  border-color: black;
+}
+#social,::selection{
+  /* background: var(--secondary-color);
+  color: var(--white-color); */
+  background: transparent;
+  color: black;
+  font-size: 1.5rem;
   /* border-radius: 10px; */
   border-color: black;
 }
@@ -322,8 +331,8 @@ strong {
 }
 
 .navbar .container {
-  background: url('360_F_589814434_OAWQMHaDi4fMT9Ke2DySPuJ0ECUqWaVA.jpg');
-  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+  background: transparent;
+  /* box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%); */
 }
 
 .is-sticky .navbar-brand,
