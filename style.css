@@ -14,13 +14,12 @@ header {
 
 /* Style the skills list */
 .skills h2 {
-    font-size: 60px;
+    font-size: 40px;
     color: #333;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .skills-grid {
-    
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three cards per row */
     gap: 20px; /* Spacing between cards */
@@ -33,10 +32,7 @@ header {
     padding: 20px;
     text-align: center;
 }
-.skill-card:hover
-{
-    background-color: aqua;
-}
+
 /* Style the icons */
 .skill-card i {
     font-size: 48px;
@@ -48,4 +44,17 @@ header {
     margin-top: 10px;
     font-size: 18px;
     color: #666;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr); /* Two cards per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: repeat(1, 1fr); /* One card per row on smartphones */
+    }
 }
